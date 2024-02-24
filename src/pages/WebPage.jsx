@@ -39,12 +39,26 @@ const WebPage = () => {
             <th>Company</th>
         </tr>
         <tr>
-            {data.map((user) => {
+            <td>1</td>
+            <td>1</td>
+            <td>Sample Title</td>
+            <td>Sample Body</td>
+            <td>name</td>
+            <td>Email</td>
+            <td>Address</td>
+            <td>Phone</td>
+            <td>Website</td>
+            <td>Website</td>
+
+
+        </tr>
+        <tr>
+            {/* {data.map((user) => {
                 <td>{user.userId}</td>
                 // <td key={index}>{user.id}</td>,
                 // <td key={index}>{user.title}</td>,
                 // <td key={index}>{user.body}</td>
-            })}
+            })} */}
         </tr>
       </table>
     </div>
